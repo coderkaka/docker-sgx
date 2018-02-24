@@ -1,0 +1,10 @@
+sudo: required
+
+services:
+  - docker
+
+language: c++
+install: true
+
+script: cd simulation && ./build.sh && ./test.sh
+after-script: echo 'success'
