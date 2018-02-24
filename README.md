@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/haitaohuang/docker-sgx.svg?branch=master)](https://travis-ci.org/haitaohuang/docker-sgx)
+
 This is based on original code from https://github.com/sean-jc/linux-sgx/tree/c/docker
 
 Adapted to pull patched SGX PSW and SDK code from https://github.com/haitaohuang/linux-sgx/tree/docker.
